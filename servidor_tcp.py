@@ -1,4 +1,4 @@
-import socket  # Biblioteca que permite criar conexões de rede
+import socket
 import json
 from decouple import config
 
@@ -43,3 +43,4 @@ while ativo!=None:
 conexao.close()
 servidor.close()
 print("Conexão encerrada.")
+
